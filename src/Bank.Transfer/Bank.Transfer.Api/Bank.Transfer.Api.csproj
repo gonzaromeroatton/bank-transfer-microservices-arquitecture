@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>a8dad98d-701d-4b6b-beb8-2233cc0c7819</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.13" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Application\External\" />
+    <Folder Include="Application\Features\" />
+    <Folder Include="External\" />
+  </ItemGroup>
+
+</Project>
