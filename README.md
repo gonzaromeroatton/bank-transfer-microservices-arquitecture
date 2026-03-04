@@ -1,5 +1,18 @@
 # 🏦 Bank Transfer Microservices Architecture (ASP.NET 8 + EF Core + SQL Server)
 
+<!-- Badges -->
+<p align="left">
+  <img alt=".NET" src="https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet&logoColor=white" />
+  <img alt="ASP.NET Core" src="https://img.shields.io/badge/ASP.NET%20Core-Minimal%20APIs-512BD4?logo=dotnet&logoColor=white" />
+  <img alt="EF Core" src="https://img.shields.io/badge/EF%20Core-ORM-6DB33F?logo=nuget&logoColor=white" />
+  <img alt="SQL Server" src="https://img.shields.io/badge/SQL%20Server-DB-CC2927?logo=microsoftsqlserver&logoColor=white" />
+  <img alt="Microservicios" src="https://img.shields.io/badge/Arquitectura-Microservicios-0A66C2" />
+  <img alt="API Gateway" src="https://img.shields.io/badge/Patr%C3%B3n-API%20Gateway-0A66C2" />
+</p>
+
+<!-- Tags -->
+**Tags:** `microservicios` · `arquitectura` · `api-gateway` · `aspnet-core` · `minimal-apis` · `dotnet-8` · `ef-core` · `sql-server` · `csharp` · `domain-driven-design` · `clean-architecture` · `banking` · `transferencias` · `transacciones` · `balances`
+
 > **Objetivo del repo:** ejemplo **simple, explícito y didáctico** de una arquitectura de **microservicios** para un dominio bancario (balances, transacciones y transferencias), con un **API Gateway** como puerta de entrada.
 
 ---
