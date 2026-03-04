@@ -6,7 +6,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 var app = builder.Build();
 
-ApiGatewayEndpoint.GatewayEndpoint(app);
+ApiGatewayEndpoint.MapApiGatewayEndpoints(app);
 // Configure the HTTP request pipeline.
 
 app.Run();

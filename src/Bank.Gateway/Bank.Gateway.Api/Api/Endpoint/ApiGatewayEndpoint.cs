@@ -12,11 +12,16 @@ public static class ApiGatewayEndpoint
     /// 
     /// </summary>
     /// <param name="app"></param>
-    public static void GatewayEndpoint(WebApplication app)
+    public static IEndpointRouteBuilder MapApiGatewayEndpoints(this IEndpointRouteBuilder app)
     {
         app.MapPost("/api-gateway", ([FromBody] EndpointModel modelRequest) =>
         {
-            return modelRequest;
-        });
+            return Results.Ok(modelRequest);
+        })
+        .WithName("ProcessGatewayRequest")
+        .Produces<EndpointModel>(StatusCodes.Status200OK);
+
+        return app;
     }
 }
+  
